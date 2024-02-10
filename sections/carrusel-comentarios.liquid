@@ -1,0 +1,154 @@
+{% schema %}
+{
+  "name": "Foto y Carrusel",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "main_image",
+      "label": "Imagen Principal"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Foto y Carrusel",
+      "category": "Contenido"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "Configuración Carrusel",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Título"
+        },
+        {
+          "type": "text",
+          "id": "date",
+          "label": "Fecha"
+        },
+        {
+          "type": "textarea",
+          "id": "content",
+          "label": "Contenido"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+<div class="main-image">
+  <img src="{{ section.settings.main_image | img_url }}" alt="Imagen Principal">
+</div>
+
+<div class="carousel">
+  {% for block in section.blocks %}
+  <div class="carousel-item">
+    <div class="carousel-item-wrapper">
+      <h3>{{ block.settings.title }}</h3>
+      <p class="date">{{ block.settings.date }}</p>
+      <p>{{ block.settings.content }}</p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="parrafo"> La evaluación general en <b>Google</b> es <b>4.9</b> de 5, en base a <b>192 reseñas</b> </div>
+
+
+{% stylesheet %}
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+  .carousel {
+    display: block; /* Cambia la visualización a bloque */
+    max-width: 100%; /* Establece el ancho máximo al 100% del contenedor */
+  }
+
+  .carousel-item {
+    width: 100%; /* Ancho completo de las cajas */
+    margin-bottom: 20px; /* Espacio entre las cajas */
+  }
+}
+
+.main-image {
+  text-align: center; /* Centra el contenido */
+}
+
+.main-image img {
+  width: 18%; /* Cambia el tamaño de la imagen */
+  height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+  margin-bottom: 20px;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: hidden; /* Oculta el desbordamiento horizontal */
+  overflow-y: hidden;
+  max-width: 80%; /* Define un ancho máximo para el carrusel */
+  margin: auto; /* Centra el carrusel horizontalmente */
+  margin-bottom: 10px;
+}
+
+.carousel-item {
+  width: 396px; /* Ancho de las cajas */
+  flex: 0 0 auto;
+  margin-right: 20px; /* Espacio entre los elementos */
+}
+
+.carousel-item-wrapper {
+  border: none; /* Eliminar el borde anterior */
+  padding: 20px;
+  width: 396px; /* Ancho de la caja */
+  height: 231px; /* Alto de la caja */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra en todos los lados */
+}
+
+.carousel-item h3 {
+  font-weight: bold; /* Peso de la fuente */
+  font-size: 14px; /* Tamaño de la fuente del título */
+}
+
+.carousel-item p {
+  font-size: 15px; /* Tamaño de la fuente del texto */
+  text-align: left; /* Alineación del texto a la izquierda */
+  overflow: hidden; /* Oculta el exceso de texto */
+  white-space: normal; /* Permite que el texto se divida en varias líneas */
+  word-wrap: break-word; /* Rompe palabras largas para evitar desbordamiento */
+}
+
+.date {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.parrafo {
+  text-align: center;
+  margin-bottom:10px;
+  margin-top:20px;
+}
+
+/* Animación para desplazar automáticamente */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% - 20px)); /* Desplaza una caja completa más el margen derecho */
+  }
+}
+
+.carousel:hover .carousel-item-wrapper {
+  animation: scroll 10s infinite; /* Inicia la animación cuando el ratón pasa sobre el carrusel */
+}
+
+/* Detiene la animación al hacer clic en una caja */
+.carousel-item:hover {
+  animation-play-state: paused;
+}
+
+
+
+{% endstylesheet %}

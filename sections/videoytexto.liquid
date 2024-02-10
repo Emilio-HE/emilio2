@@ -1,0 +1,113 @@
+<style>
+  .custom-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; /* Cambiado a columna para dispositivos móviles */
+    justify-content: center; /* Alinear elementos al centro */
+    align-items: center; /* Alinear elementos al centro */
+  }
+  
+  .text-block, .video-block {
+    width: 100%; /* Cambiado para que ocupen el ancho completo en dispositivos móviles */
+    padding: 20px;
+    text-align: left; /* Alinear texto a la izquierda */
+  }
+
+  h2 {
+    color: #333;
+    font-size: 40px; /* Tamaño del título reducido para dispositivos móviles */
+    font-weight: bold;
+    text-align: left; /* Alinear título a la izquierda */
+    margin-bottom: 10px; /* Agregado margen inferior para separar del texto */
+  }
+
+  p {
+    color: #212529;
+    text-align: left; /* Alinear texto a la izquierda */
+    margin-bottom: 20px; /* Agregado margen inferior para separar del botón */
+  }
+
+  .btn {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #5e97f8;
+    border-radius: 100px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block; /* Cambiado a en línea para mantener el tamaño original */
+    margin-top: 20px; /* Ajustado el margen superior para separar del texto */
+  }
+
+  .btn:hover {
+    background-color: #4d82d6;
+  }
+
+  @media (min-width: 768px) {
+    .custom-section {
+      flex-direction: row; /* Volver al diseño de fila para pantallas más grandes */
+    }
+
+    .text-block, .video-block {
+      width: 50%; /* Dividir el ancho en dos columnas */
+    }
+  }
+</style>
+
+
+
+
+{% schema %}
+{
+  "name": "Video y Texto",
+  "settings": [
+    {
+      "type": "text",
+      "label": "Título de la sección",
+      "id": "title"
+    },
+    {
+      "type": "textarea",
+      "label": "Texto de la sección",
+      "id": "text"
+    },
+    {
+      "type": "text",
+      "label": "Texto del botón",
+      "id": "button_text"
+    },
+    {
+      "type": "url",
+      "label": "Enlace del botón",
+      "id": "button_link"
+    },
+    {
+      "type": "textarea",
+      "label": "Código de inserción del video",
+      "id": "video_embed_code",
+      "info": "Introduce el código de inserción del video (por ejemplo, de YouTube o Vimeo)."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Video y Texto",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+<div class="custom-section">
+  <div class="text-block">
+    <h2>{{ section.settings.title }}</h2>
+    <p>{{ section.settings.text }}</p>
+    <a href="{{ section.settings.button_link }}" class="btn">{{ section.settings.button_text }}</a>
+  </div>
+  <div class="video-block">
+    {% if section.settings.video_embed_code %}
+      {{ section.settings.video_embed_code | raw }}
+    {% endif %}
+  </div>
+</div>

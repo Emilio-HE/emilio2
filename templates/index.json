@@ -1,0 +1,365 @@
+{
+  "sections": {
+    "videoytexto_Gnijn6": {
+      "type": "videoytexto",
+      "custom_css": [
+        ".custom-section {margin-top: 40px;}",
+        "h2 {font-family: \"Poppins\", Sans-serif; font-size: 50px; font-weight: 700; line-height: 1.1em; padding: 0; margin: 0; color: #1e1e1e;}"
+      ],
+      "settings": {
+        "title": "Proyectos Tecnológicos",
+        "text": "¿Tienes un <b>proyecto tecnológico<\/b> o un <b>desarrollo web<\/b> en mente y quieres desarrollarlo con seguridad?\n\nTe ayudamos a poner en marcha tu <b>idea<\/b>.\n\nEn <b>3dids.com<\/b> usamos una <b>metodología<\/b> centrada en definir los tiempos, las validaciones y el proceso para que tu proyecto se materialice completamente paso a paso.",
+        "button_text": "Pedir Cita",
+        "button_link": "https:\/\/form.typeform.com\/to\/rkFJn2?typeform-medium=embed-snippet&typeform-source=www.3dids.com",
+        "video_embed_code": "<iframe src=\"https:\/\/www.videoask.com\/f8r9zip56\" allow=\"camera *; microphone *; autoplay *; encrypted-media *; fullscreen *; display-capture *;\" width=\"100%\" height=\"600px\" style=\"border: none; border-radius: 24px\"><\/iframe>"
+      }
+    },
+    "rich_text_HLzEmr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xJExkw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dirección, diseño, programación y desarrollo web",
+            "heading_size": "h1"
+          }
+        },
+        "text_HPynyQ": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><strong>Te ayudamos a hacer realidad tu negocio<\/strong><\/h2>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xJExkw",
+        "text_HPynyQ"
+      ],
+      "custom_css": [
+        ".h1 {text-align: center; color: #5e97f8; font-family: \"Poppins\", Sans-serif; font-size: 20px; font-weight: 400;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "cards_yGhw9d": {
+      "type": "cards",
+      "blocks": {
+        "card_GdKtHt": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b2b_profesionales.png",
+            "title": "Plataformas B2B profesionales",
+            "text": "¿Eres fabricante o distribuidor y necesitas saber dónde va tu futuro sobre ventas a profesionales? Tenemos clara la tecnología para desarrollar tu red de ventas internacional con todos los niveles existentes, filiales, distribuidores, agentes y clientes profesionales.",
+            "link": "https:\/\/form.typeform.com\/to\/rkFJn2?typeform-medium=embed-snippet&typeform-source=www.3dids.com",
+            "imagen": "b2b_profesionales.png"
+          }
+        },
+        "card_tVbKeM": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tienda_online_ecommerce.png",
+            "title": "Tienda online Ecommerce",
+            "text": "Potenciamos tus ventas con tiendas online con un diseño atractivo y una interfaz intuitiva que llame la atención a los clientes, cuidando el más mínimo detalle para que el resultado sea perfecto. Somos expertos en herramientas punteras en el desarrollo de tiendas online como son Shopify, Shopify Plus, Prestashop Expert y Magento.",
+            "link": "https:\/\/form.typeform.com\/to\/rkFJn2?typeform-medium=embed-snippet&typeform-source=www.3dids.com",
+            "imagen": "tienda_online_ecommerce.png"
+          }
+        },
+        "card_xmGjAe": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/direccion_proyectos.png",
+            "title": "Dirección de proyectos tecnológicos",
+            "text": "Te acompañamos en tu camino hacia el éxito. Nos encargamos de guiarte a través de la especificación y coordinación de todos los proveedores para conseguir llevar a cabo proyectos omnicanal y que no trastoquen el modelo tu trabajo habitual para facilitar su implantación.",
+            "link": "https:\/\/form.typeform.com\/to\/rkFJn2?typeform-medium=embed-snippet&typeform-source=www.3dids.com",
+            "imagen": "direccion_proyectos.png"
+          }
+        },
+        "card_zeB4NV": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/conectores_erp_crm.png",
+            "title": "Conectores ERP y CRM",
+            "text": "Hoy en día la gestión de un Ecommerce tiene un sencillo funcionamiento siempre y cuando estén atados todos los puntos. El ERP y CRM son solo dos de las patas que sujetan la mesa, pero en 3dids las tenemos controladas y ofrecemos a nuestros clientes el servicio más eficaz posible.",
+            "link": "https:\/\/form.typeform.com\/to\/rkFJn2?typeform-medium=embed-snippet&typeform-source=www.3dids.com",
+            "imagen": "conectores_erp_crm.png"
+          }
+        },
+        "card_NEA8rz": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rediseno_usabilidad_conversion.png",
+            "title": "CRO. Rediseñamos Usabilidad y Conversión",
+            "text": "¿Tú tienda online no vende todo lo que debería vender? Si tu diseño es espectacular pero no está enfocado a la venta es evidente que necesitas un rediseño de tu web. Analizamos el diseño y usabilidad de tu página web e identificamos los puntos de mejora con el objetivo de aumentar las ventas. Cuanto más clara y fácil de utilizar sea la página web más ventas tendrá.",
+            "link": "https:\/\/form.typeform.com\/to\/rkFJn2?typeform-medium=embed-snippet&typeform-source=www.3dids.com",
+            "imagen": "rediseno_usabilidad_conversion.png"
+          }
+        },
+        "card_DHkn8g": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/diseno_webs_apps.png",
+            "title": "Diseño de Webs y Apps",
+            "text": "El diseño web es el primer paso que debes dar en la apuesta por la renovación de tu empresa. Nuestro equipo de diseño es experto en el análisis de las mejores herramientas para diseñar una web o app que consiga los mejores resultados. Elegante, sencilla, usable y, sobre todo, orientada a la venta.",
+            "link": "https:\/\/form.typeform.com\/to\/rkFJn2?typeform-medium=embed-snippet&typeform-source=www.3dids.com",
+            "imagen": "diseno_webs_apps.png"
+          }
+        },
+        "card_AaEqAj": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/showroom_digital.png",
+            "title": "Showroom Digital",
+            "text": "¿Puedes enseñar ahora a tu cliente tu producto? ¿y mostrarle de nuevo el catálogo tras la feria? Si la respuesta es no, te proponemos utilizar la tecnología para crear tu Showroom Virtual, 24\/7 para realizar pedidos recurrentes y sus compras, cuándo y cómo lo necesiten.",
+            "link": "https:\/\/form.typeform.com\/to\/rkFJn2?typeform-medium=embed-snippet&typeform-source=www.3dids.com",
+            "imagen": "showroom_digital.png"
+          }
+        },
+        "card_Mf3REQ": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/optimizacion_carga.png",
+            "title": "Optimización de carga, WPO",
+            "text": "¿Tu web carga a una velocidad más lenta de lo que debería? Podrías perder clientes por el tiempo que pueden llegar a tardar en comprar. Optimizamos el tiempo de carga de tu web para posicionarla mejor en los buscadores, evitar problemas de servidores y facilitar la navegación los usuarios.",
+            "link": "https:\/\/form.typeform.com\/to\/rkFJn2?typeform-medium=embed-snippet&typeform-source=www.3dids.com",
+            "imagen": "optimizacion_carga.png"
+          }
+        },
+        "card_MVxQ7M": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/conectores_erp_crm.png",
+            "title": "Selección e implantación de CRM",
+            "text": "Son múltiples las opciones existentes de CRM y nuestra experiencia nos dice que es básico realizar un proceso de análisis operativo para elegir el CRM adecuado. Pipedrive, Dynamics, hubspot y salesforce pueden ser buenas opciones pero no deberías cerrarte a nuevas opciones que permitan que tu fuerza de ventas funcione.",
+            "link": "https:\/\/form.typeform.com\/to\/rkFJn2?typeform-medium=embed-snippet&typeform-source=www.3dids.com",
+            "imagen": "conectores_erp_crm.png"
+          }
+        }
+      },
+      "block_order": [
+        "card_GdKtHt",
+        "card_tVbKeM",
+        "card_xmGjAe",
+        "card_zeB4NV",
+        "card_NEA8rz",
+        "card_DHkn8g",
+        "card_AaEqAj",
+        "card_Mf3REQ",
+        "card_MVxQ7M"
+      ],
+      "custom_css": [
+        ".card p {color: #1e1e1e; font-family: \"Poppins\", Sans-serif; padding-bottom: 10px;}",
+        "h3 {padding-bottom: 10px;}"
+      ],
+      "settings": {
+      }
+    },
+    "imagen_con_titulo_y_boton_WkrChN": {
+      "type": "imagen_con_titulo_y_boton",
+      "settings": {
+        "imagen_fondo": "shopify:\/\/shop_images\/comunicacion-1536x1023.jpg",
+        "titulo": "Ponemos en marcha tu proyecto digital",
+        "url_boton": "https:\/\/form.typeform.com\/to\/rkFJn2?typeform-medium=embed-snippet&typeform-source=www.3dids.com",
+        "texto_boton": "Pedir CITA"
+      }
+    },
+    "videoytexto_dmde7t": {
+      "type": "videoytexto",
+      "custom_css": [
+        ".custom-section {margin-bottom: 40px; margin-top: 20px;}",
+        "h2 {font-family: \"Poppins\", Sans-serif; font-size: 50px; font-weight: 700; line-height: 1.1em; padding: 0; margin: 0; color: #1e1e1e;}"
+      ],
+      "settings": {
+        "title": "Juntos hacemos que suceda",
+        "text": "Abordamos todo el proyecto <b>junto a tu equipo.<\/b>\n\nSe trata de un proceso de <b>acompañamiento mutuo<\/b> que garantice que el resultado final sea exactamente lo que necesitas.\n\nSon más de <b>400 proyectos<\/b> liderando el desarrollo de plataformas ecommerce, B2B, aplicaciones y dirigiendo proyectos tecnológicos de todo tipo.",
+        "button_text": "",
+        "button_link": "",
+        "video_embed_code": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/RqE7PmFU43Y?si=nhQF0feRqB_M5qRP\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>"
+      }
+    },
+    "rich_text_pCHT7J": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3CGDUN": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Desarrollos tecnológicos específicos<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_P8e6wQ": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Expertos en tiendas online con Shopify Plus<\/h3>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3CGDUN",
+        "text_P8e6wQ"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"Poppins\", Sans-serif; font-size: 42px; font-weight: 700; line-height: 1.1em; padding: 0; margin: 0;}",
+        "h3 {color: #5e97f8; font-family: \"Poppins\", Sans-serif; font-size: 20px; font-weight: 400;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "cards_Y7jwgd": {
+      "type": "cards",
+      "blocks": {
+        "card_t6tK3T": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b2b_profesionales.png",
+            "title": "Tienda online Prestashop 1.7",
+            "text": "Somos referentes en crear Prestashops intuitivos internacionales, multi-tienda\/tarifa conectados.",
+            "link": "https:\/\/form.typeform.com\/to\/rkFJn2?typeform-medium=embed-snippet&typeform-source=www.3dids.com",
+            "imagen": "b2b_profesionales.png"
+          }
+        },
+        "card_qyQMga": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/conectores_erp_crm.png",
+            "title": "Tienda online Bigcommerce",
+            "text": "Somos referentes en crear Bigcommerce intuitivos para facilitar el proceso de compra de tu cliente.",
+            "link": "https:\/\/www.3dids.com\/crea-tu-tienda-online-bigcommerce\/",
+            "imagen": "conectores_erp_crm.png"
+          }
+        },
+        "card_qhhYXd": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tienda_online_ecommerce.png",
+            "title": "Tienda online Shopify Plus",
+            "text": "Somos referentes en crear Shopifys Plus de gran volumen internacionales conectados.",
+            "link": "https:\/\/www.3dids.com\/tienda-online-shopify-plus\/",
+            "imagen": "tienda_online_ecommerce.png"
+          }
+        },
+        "card_UwEwaq": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/showroom_digital.png",
+            "title": "Sistema PIM",
+            "text": "Montamos soluciones PIM que te permiten añadir todos aquellos campos que necesites para tus diferentes canales, sin dependender de departamentos técnicos.",
+            "link": "https:\/\/www.3dids.com\/sistema-pim\/",
+            "imagen": "showroom_digital.png"
+          }
+        },
+        "card_4Db7Jb": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/direccion_proyectos.png",
+            "title": "Portal B2B",
+            "text": "Descubre nuestra solución de plataforma B2B conectada a tu ERP o a tu CRM.",
+            "link": "https:\/\/www.3dids.com\/portal-b2b\/",
+            "imagen": "direccion_proyectos.png"
+          }
+        }
+      },
+      "block_order": [
+        "card_t6tK3T",
+        "card_qyQMga",
+        "card_qhhYXd",
+        "card_UwEwaq",
+        "card_4Db7Jb"
+      ],
+      "custom_css": [
+        ".card p {color: #1e1e1e; font-family: \"Poppins\", Sans-serif; padding-bottom: 10px;}",
+        "h3 {padding-bottom: 10px;}"
+      ],
+      "settings": {
+      }
+    },
+    "titulos_texto_video_h9VnRi": {
+      "type": "titulos-texto-video",
+      "settings": {
+        "titulo_pequeno": "CERTEZAS",
+        "titulo_grande": "Especificación proyectos digitales",
+        "texto": "<p>Dentro de un proyecto digital se pueden ahorrar cientos de horas de desarrollo si la persona que especifica, además de tener experiencia, tiene el <strong>modelo de negocio<\/strong> en su cabeza.<\/p><p>Por eso, en 3dids.com trabajamos desde una <strong>compresión técnica y de negocio<\/strong>.<\/p><p>Tu objetivo es el mismo que el nuestro: <strong>simplificar, enfocar a objetivos medibles y ser eficaces<\/strong>.<\/p>",
+        "codigo_insercion_video": "<iframe src=\"https:\/\/www.youtube.com\/embed\/PbP6V-s3n4M?si=dUdx2cay9r5L3wr-\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>",
+        "url_boton": "https:\/\/form.typeform.com\/to\/rkFJn2?typeform-medium=embed-snippet&typeform-source=www.3dids.com",
+        "texto_boton": "Pedir PRESUPUESTO"
+      }
+    },
+    "carrusel_comentarios_WcGcH4": {
+      "type": "carrusel-comentarios",
+      "blocks": {
+        "heading_VF87cy": {
+          "type": "heading",
+          "settings": {
+            "title": "Cristina Sanz",
+            "date": "2022-11-30",
+            "content": "Estamos muy contentos con su trabajo, les planteamos un gran reto y no solo han superado nuestras expectativas sino que lo han hecho en tiempo record."
+          }
+        },
+        "heading_3aRYAP": {
+          "type": "heading",
+          "settings": {
+            "title": "Jose Vicente Salva",
+            "date": "2022-11-21",
+            "content": "Estamos muy satisfechos con el trabajo realizado se implican para dar el máximo y eso siempre es de agradecer. Gracias María, Sara, Nuria y Ana 🙂"
+          }
+        },
+        "heading_ncqfCh": {
+          "type": "heading",
+          "settings": {
+            "title": "Tresdedos Infográfica",
+            "date": "2022-11-21",
+            "content": "Trabajo comprometido y profesional. Un gran equipo en todos los aspectos, los resultados del proyecto que hemos desarrollado con ellos han superado totalmente nuestras expectativas."
+          }
+        },
+        "heading_kQbBrt": {
+          "type": "heading",
+          "settings": {
+            "title": "Encarni Pérez",
+            "date": "2022-11-11",
+            "content": "Magníficos profesionales. Aportan un gran valor a los proyectos en los que colaboran."
+          }
+        },
+        "heading_dMhd67": {
+          "type": "heading",
+          "settings": {
+            "title": "Juan Carlos Artero",
+            "date": "Juan Carlos Artero",
+            "content": "Grandes profesionales, cercanos y muy resolutivos, excelentes colaboradores para el desarrollo comercial siempre con una muy buena estrategia de negocio"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VF87cy",
+        "heading_3aRYAP",
+        "heading_ncqfCh",
+        "heading_kQbBrt",
+        "heading_dMhd67"
+      ],
+      "settings": {
+        "main_image": "shopify:\/\/shop_images\/google-review-logo-01-1024x834-3-768x626.png"
+      }
+    }
+  },
+  "order": [
+    "videoytexto_Gnijn6",
+    "rich_text_HLzEmr",
+    "cards_yGhw9d",
+    "imagen_con_titulo_y_boton_WkrChN",
+    "videoytexto_dmde7t",
+    "rich_text_pCHT7J",
+    "cards_Y7jwgd",
+    "titulos_texto_video_h9VnRi",
+    "carrusel_comentarios_WcGcH4"
+  ]
+}

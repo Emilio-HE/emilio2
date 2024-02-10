@@ -1,0 +1,140 @@
+{% schema %}
+{
+  "name": "Título, Texto y Video",
+  "settings": [
+    {
+      "type": "text",
+      "id": "titulo_pequeno",
+      "label": "Título pequeño (h3)"
+    },
+    {
+      "type": "text",
+      "id": "titulo_grande",
+      "label": "Título grande"
+    },
+    {
+      "type": "richtext",
+      "id": "texto",
+      "label": "Texto"
+    },
+    {
+      "type": "textarea",
+      "id": "codigo_insercion_video",
+      "label": "Código de inserción del video"
+    },
+    {
+      "type": "url",
+      "id": "url_boton",
+      "label": "URL del botón"
+    },
+    {
+      "type": "text",
+      "id": "texto_boton",
+      "label": "Texto del botón"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Título, Texto y Video",
+      "category": "Contenido"
+    }
+  ]
+}
+{% endschema %}
+
+<div class="seccion-titulo-texto-video">
+  <div class="contenedor">
+    <h3>{{ section.settings.titulo_pequeno }}</h3>
+    <h2>{{ section.settings.titulo_grande }}</h2>
+    <div class="texto">{{ section.settings.texto }}</div>
+    <div class="boton-wrapper">
+      <a href="{{ section.settings.url_boton }}" class="b-o-t-o-n">{{ section.settings.texto_boton }}</a>
+    </div>
+    <div class="video-container">
+      <iframe width="1200" height="675" src="https://www.youtube.com/embed/PbP6V-s3n4M" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+
+<style>
+  .seccion-titulo-texto-video {
+    text-align: left; /* Alineación del contenido a la izquierda */
+    padding: 50px 0;
+    background-color: #f3f3f3; /* Color de fondo de la sección */
+    max-width: 1200px; /* Ancho máximo de la sección */
+    margin: 0 auto; /* Centrar la sección en la página */
+    margin-bottom: 0 auto;
+    border-radius: 40px; /* Especifica el radio de borde para hacer las esquinas más redondas */
+    overflow: hidden; /* Para asegurarse de que el contenido no se desborde de las esquinas redondeadas */
+  }
+  
+  .seccion-titulo-texto-video .contenedor {
+    padding-left: 20px; /* Espacio a la izquierda del contenido */
+    padding-right: 20px; /* Espacio a la derecha del contenido */
+  }
+  
+  .seccion-titulo-texto-video h3 {
+    font-family: "Poppins", Sans-serif; /* Familia de fuentes */
+    font-size: 20px; /* Tamaño de fuente */
+    font-weight: 400; /* Peso de la fuente */
+    text-transform: uppercase; /* Transformación de texto a mayúsculas */
+    line-height: 1.2em; /* Altura de línea */
+    margin-bottom: 20px;
+    color: #5E97F8; /* Color del título pequeño */
+  }
+  
+  .seccion-titulo-texto-video h2 {
+    font-family: "Poppins", Sans-serif; /* Familia de fuentes */
+    font-size: 50px; /* Tamaño de fuente */
+    font-weight: 700; /* Peso de la fuente */
+    line-height: 1.2em; /* Altura de línea */
+    margin-bottom: 30px;
+    color: #1E1E1E; /* Color del segundo título */
+  }
+  
+  .seccion-titulo-texto-video .texto {
+    font-size: 18px;
+    margin-bottom: 1.5em; /* Margen inferior de 1.5em */
+    color: #333; /* Color del texto */
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  
+  .seccion-titulo-texto-video .b-o-t-o-n {
+    display: inline-block;
+    padding: 10px 30px; /* Padding del botón ajustado */
+    background-color: #5E97F8; /* Color del botón */
+    color: #fff; /* Color del texto del botón */
+    text-decoration: none;
+    font-size: 1em; /* Tamaño de fuente */
+    font-weight: 700; /* Peso de la fuente */
+    font-family: "Poppins", sans-serif; /* Familia de fuentes */
+    fill: #FFFFFF; /* Relleno del botón */
+    border-radius: 30px; /* Radio de borde ajustado */
+    white-space: nowrap; /* Evita que el texto del botón se divida en varias líneas */
+  }
+  
+  .boton-wrapper {
+    margin-bottom: 20px; /* Ajusta el margen inferior según sea necesario */
+  }
+  
+  .video-container {
+    position: relative;
+    width: 100%; /* Ancho del contenedor del video al 100% del contenedor padre */
+    padding-bottom: 56.25%; /* Proporción 16:9 para calcular la altura */
+    height: 0; /* La altura inicial es 0 */
+    overflow: hidden; /* Ocultar el desbordamiento */
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ancho del iframe del video al 100% del contenedor del video */
+    height: 100%; /* Altura del iframe del video al 100% del contenedor del video */
+  }
+</style>
